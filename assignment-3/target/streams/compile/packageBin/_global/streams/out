@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/map-reduce_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/map reduce.kotlin_module[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/META-INF/map reduce.kotlin_module[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$4$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$4$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lab3$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/lozhn/Google Drive/InnopolisU/F19-BD/assignment-3/target/scala-2.11/classes/Lab3$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

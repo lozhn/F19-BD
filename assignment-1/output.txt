@@ -1,0 +1,225 @@
+➜  scala-2.11 git:(master) spark-submit --master yarn --class Indexer lab3-scala-spark_2.11-0.1.jar hdfs:///EnWikiMedium hdfs:///egypt/indexMedium build
+2019-10-08 02:25:17,432 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-08 02:25:17,957 INFO util.log: Logging initialized @1321ms
+2019-10-08 02:25:18,008 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-10-08 02:25:18,022 INFO server.Server: Started @1387ms
+2019-10-08 02:25:18,040 INFO server.AbstractConnector: Started ServerConnector@3caa4757{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-10-08 02:25:18,062 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@62c5bbdc{/jobs,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,063 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3c321bdb{/jobs/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,063 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@24855019{/jobs/job,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,064 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4d4d8fcf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,064 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@610db97e{/stages,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,065 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f0628de{/stages/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,065 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3fabf088{/stages/stage,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,066 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ced35ed{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,067 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2c22a348{/stages/pool,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,067 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7bd69e82{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,068 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@74d7184a{/storage,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,068 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@51b01960{/storage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,069 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6831d8fd{/storage/rdd,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,069 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@27dc79f7{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,070 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6b85300e{/environment,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,070 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3aaf4f07{/environment/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,070 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5cbf9e9f{/executors,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,071 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@18e8473e{/executors/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,071 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5a2f016d{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,071 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1a38ba58{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,081 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3ad394e6{/static,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,081 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4acf72b6{/,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,082 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7561db12{/api,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,082 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6e9c413e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,083 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@57a4d5ee{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,333 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@231baf51{/metrics/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,423 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@17814b1c{/SQL,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,423 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7ac9af2a{/SQL/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,424 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@522ba524{/SQL/execution,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,424 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@29c5ee1d{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-10-08 02:25:18,425 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7e7f0f0a{/static/sql,null,AVAILABLE,@Spark}
+2019-10-08 02:26:16,690 INFO Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2019-10-08 02:26:16,692 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:23,911 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:27,124 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000000_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000000
+2019-10-08 02:31:28,610 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:33,046 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000001_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000001
+2019-10-08 02:31:34,554 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:38,780 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000002_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000002
+2019-10-08 02:31:40,194 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:44,244 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000003_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000003
+2019-10-08 02:31:45,613 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:49,427 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000004_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000004
+2019-10-08 02:31:50,937 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:31:56,684 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000005_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000005
+2019-10-08 02:31:58,066 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:02,125 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000006_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000006
+2019-10-08 02:32:03,487 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:08,232 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000007_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000007
+2019-10-08 02:32:09,667 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:15,404 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000008_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000008
+2019-10-08 02:32:16,712 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:21,048 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000009_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000009
+2019-10-08 02:32:22,423 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:26,421 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000010_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000010
+2019-10-08 02:32:27,842 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:34,895 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000011_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000011
+2019-10-08 02:32:36,263 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:42,478 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000012_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000012
+2019-10-08 02:32:43,894 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:48,076 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000013_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000013
+2019-10-08 02:32:49,604 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:32:55,226 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000014_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000014
+2019-10-08 02:32:56,765 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:33:02,358 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000015_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000015
+2019-10-08 02:33:03,814 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:33:08,415 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000016_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000016
+2019-10-08 02:33:09,994 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:33:14,995 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000017_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000017
+2019-10-08 02:33:16,422 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:33:19,206 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000018_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000018
+2019-10-08 02:33:20,606 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:33:23,522 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008022616_0019_m_000019_0' to hdfs://namenode:9000/egypt/indexMedium_docs/_temporary/0/task_20191008022616_0019_m_000019
+2019-10-08 02:33:24,419 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:15,359 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:17,470 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000000_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000000
+2019-10-08 02:35:18,188 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:19,711 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000001_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000001
+2019-10-08 02:35:20,358 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:21,819 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000002_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000002
+2019-10-08 02:35:22,505 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:24,053 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000003_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000003
+2019-10-08 02:35:24,641 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:26,236 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000004_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000004
+2019-10-08 02:35:26,938 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:28,852 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000005_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000005
+2019-10-08 02:35:29,514 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:31,343 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000006_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000006
+2019-10-08 02:35:32,052 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:33,912 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000007_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000007
+2019-10-08 02:35:34,586 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:36,501 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000008_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000008
+2019-10-08 02:35:37,206 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:38,985 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000009_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000009
+2019-10-08 02:35:39,679 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:42,329 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000010_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000010
+2019-10-08 02:35:43,061 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:45,599 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000011_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000011
+2019-10-08 02:35:46,374 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:48,592 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000012_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000012
+2019-10-08 02:35:49,236 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:50,932 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000013_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000013
+2019-10-08 02:35:51,625 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:53,432 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000014_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000014
+2019-10-08 02:35:54,154 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:55,948 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000015_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000015
+2019-10-08 02:35:56,645 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:35:58,332 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000016_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000016
+2019-10-08 02:35:59,041 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:36:01,089 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000017_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000017
+2019-10-08 02:36:01,748 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:36:04,351 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000018_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000018
+2019-10-08 02:36:05,438 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-10-08 02:36:07,367 INFO output.FileOutputCommitter: Saved output of task 'attempt_20191008023324_0022_m_000019_0' to hdfs://namenode:9000/egypt/indexMedium_words/_temporary/0/task_20191008023324_0022_m_000019
+2019-10-08 02:36:08,320 INFO server.AbstractConnector: Stopped Spark@3caa4757{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+
+➜  scala-2.11 git:(master) spark-submit --master yarn --class Ranker lab3-scala-spark_2.11-0.1.jar hdfs:///egypt/indexMedium naive "hello world"   
+2019-10-08 02:36:25,747 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Running naive based on index from hdfs:///egypt/indexMedium with query - hello world
+2019-10-08 02:36:26,283 INFO util.log: Logging initialized @1542ms
+2019-10-08 02:36:26,329 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-10-08 02:36:26,342 INFO server.Server: Started @1602ms
+2019-10-08 02:36:26,357 INFO server.AbstractConnector: Started ServerConnector@c074c0c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-10-08 02:36:26,379 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3f2049b6{/jobs,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,379 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6b85300e{/jobs/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,379 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3aaf4f07{/jobs/job,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,380 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@18e8473e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,380 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5a2f016d{/stages,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,381 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1a38ba58{/stages/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,381 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3ad394e6{/stages/stage,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,382 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1deb2c43{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,382 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bb9efbc{/stages/pool,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,382 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1cefc4b3{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,383 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2b27cc70{/storage,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,383 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f6a7463{/storage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,384 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1bdaa23d{/storage/rdd,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,384 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@79f227a9{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,384 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6ca320ab{/environment,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,385 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@50d68830{/environment/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,385 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e53135d{/executors,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,386 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7674a051{/executors/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,386 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3a7704c{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,387 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6754ef00{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,392 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@619bd14c{/static,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,393 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@106faf11{/,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,394 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@70f43b45{/api,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,394 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2c282004{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,395 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@22ee2d0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:36:26,626 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2b0b4d53{/metrics/json,null,AVAILABLE,@Spark}
+Start loading
+Loaded docs
+Loaded words
+2019-10-08 02:36:27,508 INFO mapred.FileInputFormat: Total input paths to process : 20
+naive>
+2019-10-08 02:36:50,174 INFO mapred.FileInputFormat: Total input paths to process : 20
+(1457.5808678184435,FIFA World Cup)
+(1070.4109498041694,Russia)
+(1013.4741971550114,China)
+(956.5374445058535,World music)
+(922.3753929163587,Economy of the United States)
+(910.9880423865271,Greyhawk)
+(876.8259907970324,Cricket World Cup)
+(865.4386402672008,Garry Kasparov)
+(854.0512897373692,Apocalyptic and post-apocalyptic fiction)
+(854.0512897373692,Globalization)
+Elapsed time: 72s
+2019-10-08 02:38:02,644 INFO server.AbstractConnector: Stopped Spark@c074c0c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+
+➜  scala-2.11 git:(master) spark-submit --master yarn --class Ranker lab3-scala-spark_2.11-0.1.jar hdfs:///egypt/indexMedium bm25 "hello world"
+2019-10-08 02:38:41,207 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Running bm25 based on index from hdfs:///egypt/indexMedium with query - hello world
+2019-10-08 02:38:41,739 INFO util.log: Logging initialized @1480ms
+2019-10-08 02:38:41,789 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-10-08 02:38:41,801 INFO server.Server: Started @1542ms
+2019-10-08 02:38:41,818 INFO server.AbstractConnector: Started ServerConnector@c074c0c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-10-08 02:38:41,844 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3f2049b6{/jobs,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,845 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6b85300e{/jobs/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,845 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3aaf4f07{/jobs/job,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,846 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@18e8473e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,846 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5a2f016d{/stages,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,847 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1a38ba58{/stages/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,847 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3ad394e6{/stages/stage,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,848 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1deb2c43{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,849 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bb9efbc{/stages/pool,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,849 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1cefc4b3{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,850 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2b27cc70{/storage,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,850 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f6a7463{/storage/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,851 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1bdaa23d{/storage/rdd,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,851 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@79f227a9{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,852 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6ca320ab{/environment,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,853 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@50d68830{/environment/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,853 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e53135d{/executors,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,854 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7674a051{/executors/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,854 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3a7704c{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,855 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6754ef00{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,860 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@619bd14c{/static,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,861 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@106faf11{/,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,862 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@70f43b45{/api,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,862 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2c282004{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:38:41,863 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@22ee2d0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-10-08 02:38:42,111 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2b0b4d53{/metrics/json,null,AVAILABLE,@Spark}
+Start loading
+Loaded docs
+Loaded words
+2019-10-08 02:38:42,981 INFO mapred.FileInputFormat: Total input paths to process : 20
+bm25>
+2019-10-08 02:39:50,875 INFO mapred.FileInputFormat: Total input paths to process : 20
+- (7.9392794895718035,Hello Kitty)
++ (3.2643612280554315,&quot;Hello, World!&quot; program)
+- (2.188505276950347,Poe (singer))
+- (1.9703258560212462,Carmen Miranda)
++ (1.144349896946708,Open Shortest Path First)
+- (1.0567037377956556,Todd Rundgren)
++ (1.0479546721594084,Java (programming language))
+- (1.0479546721594084,Louis Armstrong)
+- (1.0205554767882479,Beastie Boys)
++ (1.0110171111130164,PHP)
+Elapsed time: 107s
+2019-10-08 02:40:56,276 INFO server.AbstractConnector: Stopped Spark@c074c0c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
